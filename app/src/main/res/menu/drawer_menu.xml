@@ -1,0 +1,23 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/group_feature"
+        android:checkableBehavior="single">
+        <item
+            android:onClick="onOptionsItemSelected"
+            android:id="@+id/nav_update_info"
+            android:title="Cập nhật thông tin" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:title="Thông báo" />
+        <item
+            android:id="@+id/nav_app_settings"
+            android:title="Cài đặt ứng dụng" />
+    </group>
+
+    <group android:id="@+id/group_settings"
+        android:checkableBehavior="single">
+        <item android:title="Chia sẻ ứng dụng" />
+        <item android:title="Giới thiệu ứng dụng" />
+        <item android:title="Đăng xuất" />
+    </group>
+</menu>

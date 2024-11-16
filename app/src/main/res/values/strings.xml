@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FindBlood</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="register">Đăng Ký</string>
+    <string name="blood_request">Yêu Cầu Máu</string>
+    <string name="donor_info">Thông Tin Người Hiến Máu</string>
+    <string name="navigation_drawer_open">Mở Menu</string>
+    <string name="navigation_drawer_close">Đóng Menu</string>
+
+    <string name="image_desc_1">Slideshow Item 1 Description</string>
+    <string name="image_desc_2">Slideshow Item 2 Description</string>
+    <string name="image_desc_3">Slideshow Item 3 Description</string>
+    <string name="image_desc_4">Slideshow Item 4 Description</string>
+    <string name="image_desc_5">Slideshow Item 5 Description</string>
+    <string name="image_desc_6">Slideshow Item 6 Description</string>
+    <string name="image_desc_7">Slideshow Item 7 Description</string>
+    <string name="image_desc_8">Slideshow Item 8 Description</string>
+    <string name="image_desc_9">Slideshow Item 9 Description</string>
+    <string name="image_desc_10">Slideshow Item 10 Description</string>
+
+    <string-array name="blood_types">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+</resources>

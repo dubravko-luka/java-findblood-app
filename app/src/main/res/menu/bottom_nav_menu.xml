@@ -1,0 +1,24 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <item
+        android:id="@+id/nav_home"
+        android:onClick="onNavigationItemSelected"
+        android:title="Trang chủ"/>
+    <item
+        android:id="@+id/nav_register_donate"
+        android:onClick="onNavigationItemSelected"
+        android:title="Đăng ký"/>
+    <item
+        android:id="@+id/nav_search"
+        android:onClick="onNavigationItemSelected"
+        android:title="Tìm kiếm"/>
+    <item
+        android:id="@+id/registered"
+        android:onClick="onNavigationItemSelected"
+        android:title="Đã ĐK"/>
+    <item
+        android:id="@+id/nav_update_info_bottom"
+        android:onClick="onNavigationItemSelected"
+        android:title="Cá nhân"/>
+</menu>

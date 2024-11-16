@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorRed"
+        android:layout_marginTop="32dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="300dp"
+        android:hint="Số điện thoại"
+        android:layout_marginTop="16dp"
+        android:textColorHint="@color/colorRed"
+        android:textColor="@color/colorRed"
+        android:backgroundTint="@color/colorRed"
+        android:padding="12dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxWidth="300dp"
+        android:hint="Mật khẩu"
+        android:layout_marginTop="8dp"
+        android:textColorHint="@color/colorRed"
+        android:textColor="@color/colorRed"
+        android:backgroundTint="@color/colorRed"
+        android:padding="12dp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Đăng Nhập"
+        android:backgroundTint="@color/colorRed"
+        android:textColor="@color/white"
+        android:onClick="onLoginClick"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Đăng Ký"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/colorRed"
+        android:onClick="onRegisterClick"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp" />
+</LinearLayout>
